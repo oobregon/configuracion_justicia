@@ -5,6 +5,7 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.42.187:3306/justicia
     username: root
     password: root
   jpa:
