@@ -3,8 +3,7 @@ server:
   servlet:
     context-path: /justicia/juzgados
 spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+  datasource:    
     username: root
     password: root
   jpa:
