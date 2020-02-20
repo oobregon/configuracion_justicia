@@ -19,10 +19,10 @@ zuul:
       service-id: microservicio-instruccion
 eureka:
   instance:
-    ip-address: 192.168.42.252
+    ip-address: 192.168.42.187
     prefer-ip-address: true
-    instance-id: 192.168.42.252:7000 
+    instance-id: 192.168.42.187:7000 
   client:
     register-with-eureka: false    
     service-url:
-      defaultZone: http://192.168.42.252:8761/eureka
+      defaultZone: http://192.168.42.187:8761/eureka
