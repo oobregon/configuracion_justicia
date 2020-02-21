@@ -2,12 +2,6 @@ server:
   port: 8001
   servlet:
     context-path: /justicia/juzgados
-spring:
-  jpa:
-    hibernate:
-      naming:
-        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 eureka:
   instance:
     ip-address: 192.168.42.254
