@@ -2,12 +2,6 @@ server:
   port: 8001
   servlet:
     context-path: /justicia/juzgados
-spring:  
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.42.254:3306/justicia 
-    username: root
-    password: root
 eureka:
   instance:
     ip-address: 192.168.42.254
