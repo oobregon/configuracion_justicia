@@ -7,15 +7,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.42.254:3306/justicia 
     username: root
-    password: root
-  jpa:
-    properties:
-      hibernate:
-        dialect:  org.hibernate.dialect.MySQL5Dialect
-    hibernate:
-      naming:
-        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl    
+    password: root    
 eureka:
   instance:
     ip-address: 192.168.42.254
