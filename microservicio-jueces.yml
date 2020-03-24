@@ -5,9 +5,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.1.35:3306/justicia
-    username: root
-    password: root
+    url: jdbc:mysql://192.168.1.43:3306/justicia
+    username: oscar
+    password: oscar
   jpa:
     hibernate:
       naming:
@@ -15,9 +15,9 @@ spring:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 eureka:
   instance:
-    ip-address: 192.168.1.35
+    ip-address: 192.168.1.42
     prefer-ip-address: true
-    instance-id: 192.168.1.35:8001    
+    instance-id: 192.168.1.42:8002    
   client:    
     serviceUrl:
-      defaultZone: http://192.168.1.35:8761/eureka
+      defaultZone: http://192.168.1.42:8761/eureka
