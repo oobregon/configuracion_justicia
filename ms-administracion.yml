@@ -25,5 +25,5 @@ url:
   base:
     servicio:
       ine: http://servicios.ine.es/wstempus/js/ES/VALORES_VARIABLEOPERACION/115/22?page=1  
-        opendatasoft:  
-          localidades: http://public.opendatasoft.com/api/records/1.0/search
+      opendatasoft:
+        localidades: http://public.opendatasoft.com/api/records/1.0/search
